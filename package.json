@@ -1,0 +1,14 @@
+{
+  "name": "test-json-import-issue",
+  "version": "1.0.0",
+  "description": "Test project to reproduce JSON import issue with cypress.run()",
+  "main": "run-cypress.js",
+  "scripts": {
+    "test": "node run-cypress.js"
+  },
+  "devDependencies": {
+    "cypress": "^15.8.2",
+    "typescript": "^5.9.3"
+  }
+}
+

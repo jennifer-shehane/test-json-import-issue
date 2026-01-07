@@ -1,0 +1,12 @@
+import { defineConfig } from 'cypress'
+
+export default defineConfig({
+  e2e: {
+    baseUrl: 'https://example.com',
+    specPattern: 'cypress/e2e/**/*.cy.ts',
+    supportFile: false,
+    async setupNodeEvents (on, config) {
+      return config
+    },
+  },
+})
